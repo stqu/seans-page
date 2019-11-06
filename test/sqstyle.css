@@ -1,0 +1,248 @@
+Written by Sean Quigley in 2019
+
+
+body {
+  background-color: #f9f9f9;
+
+}
+
+@media screen and (min-width: 600px){
+body {
+    background-image: url('file:///Users/sean/Documents/webdev/seans-page/media/mat2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60px 155px;
+    background-size: 10%;
+    background-color:#f9f9f9;
+    }
+}
+
+
+/* old color# #f9f9f9 */
+
+p {
+    color: #0048fb;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+
+}
+
+p.sectionhead {
+    color: Black;
+    font-family: 'Asap', sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+p.sectionhead:hover {
+    color: #fe9900;
+
+}
+
+p.poemtitle {
+    color: Black;
+    font-family: 'Asap', sans-serif;
+    font-size: 23px;
+    margin-left: 10px;
+
+}
+
+p.poemtitle:hover {
+    color: #fe9900;
+
+}
+
+
+p.poemstanza {
+    color: black;
+    font-family: 'Esteban', serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+
+}
+
+p.poemstanza:hover {
+    color: #0048fb;
+
+}
+
+p.backlink {
+    color: #fe9900
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+
+}
+
+div.orangebox {
+    background-color: #fe9900;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+
+
+div.blackbox {
+    background-color: Black;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+div.topbluebox {
+    background-color: #0048fb;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+div.bottombluebox {
+    background-color: #0048fb;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+div.rightbluebox {
+    background-color: #0048fb;
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+
+}
+
+div.leftbluebox {
+    background-color: #0048fb;
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+
+}
+
+div.headlinecontainer {
+    margin: 0 auto;
+
+}
+
+div.headline {
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+
+div.headline:hover {
+
+
+}
+
+@media screen and (max-width: 900px){
+span.navbar {
+  display:none;
+  }
+
+}
+
+div.navbarcontainer {
+    margin: 0 auto;
+
+}
+
+div.navbar {
+    display: inline-block;
+    height: 25px;
+    border: 3px solid Black;
+    color: #0048fb;
+    font-family: 'Spectral', serif;
+    margin-left: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+
+}
+
+
+div.contentcontainer {
+    margin: 0 auto;
+
+}
+
+
+div.content {
+    margin-left: 20%;
+    width: 55%;
+    height: auto;
+    border: 5px solid Orange;
+    color: #0048fb;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+@media screen and (max-width: 600px){
+div.content {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 85%;
+    height: auto;
+    border: 5px solid Orange;
+    color: #0048fb;
+    font-family: 'Cutive Mono', monospace;
+    }
+}
+
+a:link {
+  color: #0048fb;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #0048fb;
+
+}
+
+a:hover {
+  color: #fe9900;
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: red;
+
+}
+
+img.contain {
+    text-align: center
+    display: block
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+
+}
