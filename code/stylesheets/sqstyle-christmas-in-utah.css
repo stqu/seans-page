@@ -1,7 +1,19 @@
 body {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 
 }
+
+@media screen and (min-width: 600px){
+body {
+    background-image: url('file:///Users/sean/Documents/webdev/seans-page/media/mat2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60px 155px;
+    background-size: 10%;
+    background-color:#f9f9f9;
+    }
+}
+
 /* old color#  */
 
 p {
@@ -11,14 +23,14 @@ p {
 
 }
 
-p.sectionhead {    
+p.sectionhead {
     color: Black;
     font-family: 'Asap', sans-serif;
     font-size: 23px;
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 20px;
-    
+
 }
 
 p.sectionhead:hover {
@@ -59,7 +71,7 @@ p.backlink {
     font-family: 'Cutive Mono', monospace;
     margin-top: 50px;
     margin-left: 20px;
-    
+
 }
 
 
@@ -67,7 +79,7 @@ footer {
     position: fixed;
     bottom: 0;
     font-size: 10px;
-    
+
 }
 
 div.orangebox {
@@ -79,7 +91,7 @@ div.orangebox {
     top: 0;
     right: 0;
     z-index: 100;
-    
+
 }
 
 
@@ -104,7 +116,7 @@ div.topbluebox {
     width: 100%;
     position: fixed;
     top: 0;
-    
+
 }
 
 div.bottombluebox {
@@ -114,7 +126,7 @@ div.bottombluebox {
     position: fixed;
     bottom: 0;
 
-    
+
 }
 
 div.rightbluebox {
@@ -149,7 +161,7 @@ div.headline {
 
 div.headline:hover {
 
-    
+
 }
 
 div.navbarcontainer {
@@ -173,7 +185,7 @@ div.navbar {
 
 div.contentcontainer {
     margin: 0 auto;
-    
+
 }
 
 div.content {
@@ -184,29 +196,42 @@ div.content {
     border: 5px solid Orange;
     color: #0048fb;
     font-family: 'Cutive Mono', monospace;
-    
+
 }
+
+@media screen and (max-width: 600px){
+div.content {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 85%;
+    height: auto;
+    border: 5px solid Orange;
+    color: #0048fb;
+    font-family: 'Cutive Mono', monospace;
+    }
+}
+
 
 a:link {
   color: #0048fb;
   text-decoration: none;
-  
+
 }
 
 a:visited {
   color: #0048fb;
-  
+
 }
 
 a:hover {
   color: #fe9900;
   text-decoration: underline;
-  
+
 }
 
 a:active {
   color: red;
-  
+
 }
 
 img.contain {
@@ -215,5 +240,5 @@ img.contain {
     width: 80%;
     height: 80%;
     margin: 10px;
-    
+
 }
