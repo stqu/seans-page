@@ -87,6 +87,7 @@ footer {
 
 }
 
+
 div.orangebox {
     background-color: #fe9900;
     width: 70px;
@@ -94,9 +95,22 @@ div.orangebox {
     position: fixed;
     top: 0;
     right: 0;
+    text-align: center;
+    padding-top: 5px;
 
 }
 
+.homebutton {
+    display : none;
+}
+
+div.orangebox:hover .homebutton {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    object-position: center;
+}
 
 
 div.blackbox {
@@ -151,8 +165,9 @@ div.headlinecontainer {
 }
 
 div.headline {
-    padding-left: 20px;
-    font-size: 20px;
+    margin-left: 3%;
+    padding-left: 0px;
+    font-size: 13px;
 
 }
 
@@ -176,17 +191,17 @@ div.navbarcontainer {
 
 div.navbar {
     display: inline-block;
-    height: 25px;
-    border: 3px solid Black;
+    height: 18px;
+    border: 2px solid Black;
     color: #0048fb;
     font-family: 'Spectral', serif;
-    margin-left: 10%;
+    margin-left: 5%;
     padding-left: 10px;
     padding-right: 10px;
     white-space: nowrap;
+    font-size: 12px;
 
 }
-
 
 div.contentcontainer {
     margin: 0 auto;
